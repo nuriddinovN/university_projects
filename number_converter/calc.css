@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    background-image: linear-gradient(90deg,green, rgb(6, 251, 6), green);
+}
+
+#alert{
+    width: calc(100%-10px);
+    margin: 3px 7px 0 7px;
+    background: none;
+    background-color: rgba(2, 205, 2, 0.216);
+    color:rgb(244, 200, 200);
+    border: 1px solid rgb(0, 231, 0) ;
+}
+#closeButton{
+    border: 1px ;
+    
+}
+
+main{
+
+    margin: auto;
+    margin-top: 3em ;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 2px green;
+    text-align: center;
+    
+    min-width:200px ;
+    max-width: 350px;
+    height: fit-content;
+    
+    padding:0 10px 10px;
+    
+   position: relative;
+}
+main #display{
+width: 320px;
+height: 60px;
+margin: auto;
+margin-top: 2rem;
+text-align: right;
+background: none;
+font-weight: bolder;
+font-size: 50px;
+color: antiquewhite;
+border: 0px solid black;
+padding: 0;
+padding: 0 17px;
+outline: none;
+}
+
+main .row .col button{
+    width: 60px;
+    height: 60px;
+    margin: 5px 0;
+    font-weight: bolder;
+    border: 1px ;
+    background: none;
+    color: rgb(217, 250, 215);
+    
+    border-radius: 50%;
+}
+
+main .row .col button:hover{
+    background-color: rgba(0, 153, 20, 0.112);
+}
+
+#plus,#minus,#div,#multy,#del{
+    background-image:linear-gradient(rgba(1, 42, 1, 0.163),rgba(1, 42, 1, 0.184)) ;
+   
+}
+#equal{
+    background-color: rgba(0, 128, 0, 0.401);
+   
+}
+
+#clear{
+    color: green;
+}
+#clear::after{
+    color: green;
+}

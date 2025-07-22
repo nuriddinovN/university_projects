@@ -1,0 +1,219 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    background-image: linear-gradient(90deg,green, rgb(6, 251, 6), green);
+    margin-bottom: 1em;
+    
+}
+body{padding-bottom: 50px;}
+#alert{
+    width: calc(100%-10px);
+    margin: 3px 7px 0 7px;
+    background: none;
+    background-color: rgba(2, 205, 2, 0.216);
+    color:rgb(244, 200, 200);
+    border: 1px solid rgb(0, 231, 0) ;
+}
+#closeButton{
+    border: 1px ;
+    
+}
+
+.contain{
+    display: grid;
+    place-items: center;
+   height: 50vh;
+}
+main{
+    margin: 1.3em 15%;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 2px green;
+    text-align: center;
+    
+    min-width:300px ;
+    height: fit-content;
+    max-height: calc(100%-10px);
+    
+    padding:0 5px 5px;
+    
+   position: relative;
+   
+}
+#display{
+    width: 95%;
+    margin: 5px 15px 0 15px;
+    height: 50px;
+    background: none;
+    outline: none;
+    border: 0;
+    color:rgb(182, 255, 170);
+}
+ .displayer .row .col input{
+    width: 98%;
+    position: relative;
+    margin-right: 5px;
+    background: none;
+    outline: none;
+    padding:0 5px;
+    color:rgb(182, 255, 170);
+  border: 0;
+
+ }
+
+
+ .displayer .row .col label{
+    width: 95%;
+ padding-bottom: 5px;
+ margin-bottom: 5px;
+   border:1px solid green;
+   border-radius: 10px;
+ }
+
+.displayer .row .col label h2{
+    display: flex;
+    font-size:small;
+    text-align: left;
+    position: relative;
+    top:5px;
+    right: -5px;
+    background: none;
+    outline: none;
+    color: rgb(210, 255, 210);
+   display: flex;
+   justify-content: space-between;
+ 
+}
+
+
+
+#note{
+    font-size: x-small;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 12px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#binary{
+    height: 55px;
+}
+
+#more:active{
+color:rgb(192, 255, 175);
+
+}
+
+ .displayer .row .col button{
+    
+    width: 95%;
+    background-image: linear-gradient(90deg,rgb(0, 35, 0), rgb(1, 90, 3), rgb(0, 30, 0));
+    border: 0;
+    height: 40px;
+    border-radius: 10px;
+    color:rgb(222, 251, 221);
+    font-weight: 15px;
+    margin-top: 3px;
+}
+.displayer .row .col button:hover{
+    border: 1px solid rgb(111, 233, 111);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section .numbers{
+width: 50%;
+height: 100%;
+margin: 10px 10px;  
+margin-right: 20px; 
+   
+}
+section .numbers button{
+    height:3em;
+    width:80%;
+    margin: 4%;
+}
+
+section .numbers button:hover{
+    
+    background-color: rgba(1, 59, 1, 0.207);
+}
+
+section .bitwise{
+  width: 50%;  
+  
+  position: relative;
+  right: 10px;
+}
+
+section .bitwise button{
+    height:44px;
+    width: 95%;
+    background-color: rgba(1, 59, 1, 0.207);
+    margin:5px;
+}
+section .bitwise button:hover{
+    border: 1px solid rgb(214, 246, 214);
+}
+section button{
+    background: none;
+    border: 1px solid rgb(77, 159, 77);
+    margin-bottom: 4px;
+    border-radius: 10px;
+    color: rgb(240, 255, 242);
+}
+
+#delete{
+    width: 95%;
+    background-color: rgb(0, 64, 0);
+}
+#equal{
+    width: 95%;
+    background-color: rgb(0, 64, 0);
+}
+#binary-s,#binary-u,#binary-o,#binary-t,#binary-ieee {
+    color:aliceblue;
+}
+
+#more{
+   width: 45px;
+   height: 20px;
+   padding-bottom: 5px;
+   background: none;
+ position: relative;
+ top:-2px;
+ left:-7px;
+ border: 0 ;
+ 
+ color: rgba(81, 251, 43, 0.799);
+margin: 0;
+
+}
+
+#more:hover{
+    text-decoration: underline;
+}
+
+
+.toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #181818;
+    color: rgb(38, 53, 41);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+}

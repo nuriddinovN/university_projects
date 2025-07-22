@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    background-image: linear-gradient(90deg,green, rgb(6, 251, 6), green);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.table{
+    max-height: calc(100%-10px);
+   padding: 0;
+}
+
+table {
+    
+    background: none;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    
+    border-spacing: 2px;
+    border-color: #3bb200;
+    text-align: center;
+    margin: 10px 20px;
+    max-width: 500px;
+    max-height: 80%;
+    padding: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    padding: 5px;
+}
+
+
+
