@@ -1,14 +1,11 @@
+# Python virtual environment
+.venv/
 
-/home/noor/A/university_projects/chat_bot/.venv/*
-/home/noor/A/university_projects/chat_bot/.venv
+# Environment variables
+multi_agent/.env
+single_agent/.env
 
-/home/noor/A/university_projects/chat_bot/multi_agent/.env
-/home/noor/A/university_projects/chat_bot/single_agent/.env
-
-/home/noor/A/university_projects/chat_bot/single_agent/__pycache__/*
-/home/noor/A/university_projects/chat_bot/single_agent/__pycache__
-
-/home/noor/A/university_projects/chat_bot/multi_agent/__pycache__/*
-/home/noor/A/university_projects/chat_bot/multi_agent/__pycache__
+# Python cache
+**/__pycache__/
 
 
